@@ -4,7 +4,7 @@
   "description": "block-note for me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VadimN92/block-note/issues"
   },
-  "homepage": "https://github.com/VadimN92/block-note#readme"
+  "homepage": "https://github.com/VadimN92/block-note#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.5"
+  }
 }
